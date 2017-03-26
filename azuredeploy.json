@@ -252,7 +252,7 @@
         ],
         "sku": {
           "name": "[parameters('virtualNetworkGatewaySku')]",
-          "tier": "[parameters('gatewaySku')]"
+          "tier": "[parameters('virtualNetworkGatewaySku')]"
         },
         "gatewayType": "Vpn",
         "vpnType": "[parameters('vpnType')]",
