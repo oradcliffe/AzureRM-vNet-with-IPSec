@@ -59,7 +59,7 @@
       "type": "string",
       "defaultValue": "10.222.2.0/24",
       "metadata": {
-        "description": "CIDR block for VM subnet, subset of azureVNetAddressPrefix address space"
+        "description": "CIDR block for VM subnet, subset of Azure vNet Address Prefix address space"
       }
     },
     "subnet2Name": {
@@ -73,7 +73,7 @@
       "type": "string",
       "defaultValue": "10.222.3.0/24",
       "metadata": {
-        "description": "CIDR block for VM subnet, subset of azureVNetAddressPrefix address space"
+        "description": "CIDR block for VM subnet, subset of Azure vNet Address Prefix address space"
       }
     },
     "subnet3Name": {
@@ -87,14 +87,14 @@
       "type": "string",
       "defaultValue": "10.222.4.0/24",
       "metadata": {
-        "description": "CIDR block for VM subnet, subset of azureVNetAddressPrefix address space"
+        "description": "CIDR block for VM subnet, subset of Azure vNet Address Prefix address space"
       }
     },
     "gatewaySubnetPrefix": {
       "type": "string",
       "defaultValue": "10.222.1.0/24",
       "metadata": {
-        "description": "CIDR block for gateway subnet, subset of azureVNetAddressPrefix address space"
+        "description": "CIDR block for gateway subnet, subset of Azure vNet Address Prefix address space"
       }
     },
     "virtualNetworkGatewayPublicIPName": {
