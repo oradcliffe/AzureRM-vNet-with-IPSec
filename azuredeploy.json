@@ -140,7 +140,7 @@
   "variables": {
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks', parameters('virtualNetworkName'))]",
     "gatewaySubnetRef": "[concat(variables('vnetID'),'/subnets/','GatewaySubnet')]",
-    "api-version": "2015-06-15"
+    "api-version": "2017-03-01"
   },
   "resources": [
     {
