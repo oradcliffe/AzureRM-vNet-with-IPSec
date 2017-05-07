@@ -28,6 +28,6 @@ There are no prerequisites
 You can click the "deploy to Azure" button at the beginning of this document.
 
 ## Notes
-When you deploy, it is easiest to use a new resource group.  Verify that your local gateway IP is filled out - this will be the public IP you are connecting to Azure and is most likely not the default of 1.1.1.1.  Local address prefix will be the CIDR block that you want communicating with the virtual network.
+When you deploy, it is easiest to use a new resource group.  Verify that your local gateway IP is filled out - this will be the public IP you are connecting to Azure and is most likely not the default of 1.1.1.1.  Local address prefix will be the CIDR block that you want communicating with the virtual network.  Deployment takes roughly 45 minutes on average.
 
 
