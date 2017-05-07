@@ -5,7 +5,7 @@
     "vpnType": {
       "type": "string",
       "metadata": {
-        "description": "Route based or policy based"
+        "description": "Route based or policy based (route based is dynamic, policy is static)"
       },
       "defaultValue": "RouteBased",
       "allowedValues": [
@@ -24,7 +24,7 @@
       "type": "string",
       "defaultValue": "1.1.1.1",
       "metadata": {
-        "description": "Public IP of your on premises infrastructure "
+        "description": "Public IPv4 address of your on premises infrastructure "
       }
     },
     "localAddressPrefix": {
@@ -59,7 +59,7 @@
       "type": "string",
       "defaultValue": "10.222.2.0/24",
       "metadata": {
-        "description": "CIDR block for VM subnet, subset of Azure vNet Address Prefix address space"
+        "description": "CIDR block for virtual subnet, subset of Azure vNet Address Prefix address space"
       }
     },
     "subnet2Name": {
@@ -73,7 +73,7 @@
       "type": "string",
       "defaultValue": "10.222.3.0/24",
       "metadata": {
-        "description": "CIDR block for VM subnet, subset of Azure vNet Address Prefix address space"
+        "description": "CIDR block for virtual subnet, subset of Azure vNet Address Prefix address space"
       }
     },
     "subnet3Name": {
@@ -87,7 +87,7 @@
       "type": "string",
       "defaultValue": "10.222.4.0/24",
       "metadata": {
-        "description": "CIDR block for VM subnet, subset of Azure vNet Address Prefix address space"
+        "description": "CIDR block for virtual subnet, subset of Azure vNet Address Prefix address space"
       }
     },
     "gatewaySubnetPrefix": {
